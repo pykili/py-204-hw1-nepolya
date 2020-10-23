@@ -1,4 +1,4 @@
-# your code here
-user_input = input()
-# your code here
-print(most_frequent_character)
+from collections import Counter
+a=input()
+c=Counter(a).most_common()
+print(c[0])
